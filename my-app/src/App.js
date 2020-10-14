@@ -20,12 +20,10 @@ function App() {
       <Contact 
         avatar="https://randomuser.me/api/portraits/men/96.jpg"
         name="Terry Jones" online
-        isOnline="Online"
         />
       <Contact 
         avatar="https://randomuser.me/api/portraits/men/97.jpg"
-        name="Ethan Therence"
-        isOnline="Offline"
+        name="Ethan Therence" 
         />
       {/* <Avatar /> */}
       {/* <Avatar {...homer}/> */}
