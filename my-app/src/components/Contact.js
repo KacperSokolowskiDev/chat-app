@@ -1,15 +1,15 @@
 import React from 'react';
 import './Contact.css';
 
-function Contact() {
+function Contact(props) {
     return(
         <div className="Contact">
-            <img className="avatar" src="https://randomuser.me/api/portraits/men/96.jpg"></img>
+            <img className="avatar" src={props.avatar}></img>
             <div>
-                <p className="name">Terry Jones</p>
+                <p className="name">{props.name}</p>
                 <div className="status">
-                    <div className="status-online"></div>
-                        <p className="status-text">Online</p>
+                    <div className={props.online ? 'status-online' : 'status-offline'}></div>
+                    <p className="status-text">{props.isOnline}</p>
                 </div>
             </div>
         </div>
@@ -17,3 +17,6 @@ function Contact() {
 }
 
 export default Contact;
+
+
+//https://randomuser.me/api/portraits/men/96.jpg
