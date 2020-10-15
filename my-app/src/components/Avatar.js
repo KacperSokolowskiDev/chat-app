@@ -3,7 +3,8 @@ import Users from './Users';
 
 const users = Users;
 
-//Exercise Loop through an array of objects
+//Exercise Loop through an array of objects (from Users)
+
 const Avatar = () => {
       return(
           <div>

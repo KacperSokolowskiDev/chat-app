@@ -1,5 +1,6 @@
 import React from 'react';
 import Contact from './components/Contact';
+import ContactList from './components/ContactList';
 // import Avatar from './components/Avatar';
 
 // const bart = {
@@ -25,6 +26,7 @@ function App() {
         avatar="https://randomuser.me/api/portraits/men/97.jpg"
         name="Ethan Therence" 
         />
+      <ContactList/>
       {/* <Avatar /> */}
       {/* <Avatar {...homer}/> */}
     </div>

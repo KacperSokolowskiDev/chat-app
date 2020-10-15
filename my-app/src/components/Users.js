@@ -6,5 +6,5 @@ const users = [
     {firstName: "Beth", lastName: "Smith", image: "https://upload.wikimedia.org/wikipedia/en/thumb/2/2f/Rick_and_Morty_characters_-_Beth_Smith.jpg/220px-Rick_and_Morty_characters_-_Beth_Smith.jpg"}
   ];
 
-  // export default user;
+  export default users;
 

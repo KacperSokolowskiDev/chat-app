@@ -1,5 +1,8 @@
 import React from 'react';
 import './Contact.css';
+import ContactList from './ContactList';
+
+//React Challenge 2
 
 function Contact(props) {
     return(
