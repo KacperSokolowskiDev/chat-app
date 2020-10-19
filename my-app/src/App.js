@@ -3,6 +3,9 @@ import Contact from './components/Contact';
 import ContactList from './components/ContactList';
 // import Avatar from './components/Avatar';
 
+
+//First Test 
+
 // const bart = {
 //   image: "https://www.stickees.com/files/cartoon/the-simpsons/2239-bart-simpson-.png",
 //   firstName: "Bart",

@@ -5,7 +5,7 @@ const members = [
     {
         name: 'Robert Reyes',
         avatar: 'https://randomuser.me/api/portraits/men/28.jpg',
-        online: false
+        online: true
       },
       {
         name: 'Nellie Caldwell',
